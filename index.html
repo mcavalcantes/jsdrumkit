@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drum Kit</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <header>
+            <button class="theme-button" id="btn-1" onclick="changeTheme(this.id)"></button>
+            <button class="theme-button" id="btn-2" onclick="changeTheme(this.id)"></button>
+            <button class="theme-button" id="btn-3" onclick="changeTheme(this.id)"></button>
+        </header>
+        <div id="main-container">
+            <button class="null" id="A" onmousedown="play(this.id)">A<p>KICK 1</p></button>
+            <button class="null" id="S" onmousedown="play(this.id)">S<p>KICK 2</p></button>
+            <button class="null" id="D" onmousedown="play(this.id)">D<p>SNARE 1</p></button>
+            <button class="null" id="F" onmousedown="play(this.id)">F<p>SNARE 2</p></button>
+            <button class="null" id="G" onmousedown="play(this.id)">G<p>HAT 1</p></button>
+            <button class="null" id="H" onmousedown="play(this.id)">H<p>HAT 2</p></button>
+            <button class="null" id="J" onmousedown="play(this.id)">J<p>CLAP</p></button>
+            <button class="null" id="K" onmousedown="play(this.id)">K<p>BELL</p></button>
+            <button class="null" id="L" onmousedown="play(this.id)">L<p>TOM</p></button>
+        </div>
+    </body>
+</html>
